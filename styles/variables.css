@@ -12,6 +12,6 @@
   --subtitle-color: #000028;
   --rec-color: #ff0070;
   --button-hover-color: rgb(255, 0, 112, 0.4);
-  --default-logo-size: 7.5rem;
+  --default-logo-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --cover-image: url(../images/cover-image-dark.png); 
 }
