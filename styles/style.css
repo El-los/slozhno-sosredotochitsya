@@ -186,7 +186,7 @@
   padding: 0px 10px;
 } 
 
-.section:first-child {
+.why {
   margin-block-start: 40px;
 }
 
@@ -196,7 +196,7 @@
   gap: 20px;
 }
 
-.section:nth-child(3) .list-item {
+.how .list-item {
   display: grid;
   gap: 10px;
 }
@@ -291,11 +291,11 @@
     padding: 0px 20px;
   }
 
-  .section:nth-child(1) {
+  .why {
     grid-template-columns: 236px 1fr;
   }
 
-  .section:nth-child(3) {
+  .how {
     grid-template-columns: 236px 1fr;
       margin-block-start: 80px;
     }
@@ -374,27 +374,30 @@
       --default-logo-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     }
 
-    .section:first-child {
+    .why {
       grid-template-columns: 315px 1fr;
+      margin-block-start: 60px;
+  
     }
 
     .section__title {
       width: 315px;
     }
 
-    .section:nth-child(3) {
+    .how {
       grid-template-columns: 315px 1fr;
       margin-block-start:70px;
     }
 
-    .section:nth-child(2) .list {
+    .what .list {
       grid-template-columns: 1fr 1fr 1fr;
       gap: 20px;
     }
 
-    .section:nth-child(2) .list-item {
+    .what .list-item {
       grid-template-rows: min-content 1fr;
     }
   }
 
+  /* общие признаки в .section индивидуальные в .why .what . how - вроде так, или я чего-то не догоняю */
 
